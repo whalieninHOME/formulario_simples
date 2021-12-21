@@ -1,0 +1,56 @@
+#area
+{
+  position: relative;
+  left:37%;
+  top:29;
+  width:320px;
+  height:270px;
+}
+
+#area #formulario
+{
+  position: absolute;
+  display:block;
+}
+fieldset
+{
+  background-color:rgba(129, 215, 236, 0.568);
+  width:300px;
+  height:250px;
+}
+legend
+{
+  font-style:bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#formulario input.campo_nome
+{
+  background-color:aliceblue;
+  position: absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+  background-color:aliceblue;
+  position: absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario textarea.msg
+{
+  position: absolute;
+  background-color:aliceblue;
+}
+
+
+#formulario input.btn_submit
+{
+  border-style: solid;
+  position: absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color:rgb(39, 152, 250);
+}
